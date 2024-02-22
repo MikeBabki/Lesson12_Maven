@@ -9,4 +9,3 @@ public class FactorialCalculatorTest {
         Assert.assertEquals(calculator.calculateFactorial(5), 120);
     }
 }
-//
