@@ -1,11 +1,11 @@
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class FactorialCalculatorTest {
 
     @Test
-    void testCalculateFactorial() {
+    public void testCalculateFactorial() {
         FactorialCalculator calculator = new FactorialCalculator();
-        assertEquals(120, calculator.calculateFactorial(5));
+        Assert.assertEquals(calculator.calculateFactorial(5), 120);
     }
 }
